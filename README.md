@@ -10,7 +10,7 @@ This is a coursework deliverd by University of Glasgow, Robotics Foundation. Thi
 - tf (Transform) Library in ROS
 - Baxter SDK (The scripts were specifically written for Baxter robot, but you can adapt them to other robot platforms)
 
-####Project Structure
+#### Project Structure
 The main directory consists of two subdirectories:
 
 - models: Contains the table, chessboard and chess piece models in SDF format for the Gazebo simulator.
