@@ -3,8 +3,12 @@ import rospy
 import tf
 from gazebo_msgs.msg import LinkStates
 
+# This is hard-coded to block for this exercise, yet you can make the script general by adding cmd line arguments
+input_linkname = "block"
+
 # Global variable where the object's pose is stored
 pose = None
+
 
 def get_links_gazebo(link_states_msg):
     # Call back to retrieve the object you are interested in
@@ -43,6 +47,4 @@ def main():
 
 
 if __name__ == '__main__':
-    for name in rospy.get_param('piece_names'):
-        input_linkname = name
-        main()
+    main()

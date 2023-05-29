@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<robot name="chessboard" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <link name="chessboard__link">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="chessboard__collision">
+      <origin rpy="0      0     -1.5708" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://chess_robot/models/chessboard/chessboard.dae" scale="0.0625 0.0625 0.0625"/>
+      </geometry>
+    </collision>
+    <visual name="chessboard__visual">
+      <origin rpy="0      0     -1.5708" xyz="0  0  0"/>
+      <geometry>
+        <mesh filename="package://chess_robot/models/chessboard/chessboard.dae" scale="0.0625 0.0625 0.0625"/>
+      </geometry>
+    </visual>
+  </link>
+  <joint name="chessboard_fixed" type="fixed">
+  <origin rpy="0 0 0" xyz="0.57 0.15 -0.15"/>
+  <axis xyz="0 0 1"/>
+  <parent link="world"/>
+  <child link="chessboard__link"/>
+</joint>
+</robot>
+

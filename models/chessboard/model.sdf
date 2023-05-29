@@ -7,7 +7,7 @@
 			<collision name="collision">
 				<geometry>
 					<mesh>
-						<uri>/home/vagrant/rf_ws/src/chess_baxter/models/chessboard/chessboard.dae</uri>
+						<uri>/home/vagrant/rf_ws/src/chess_robot/models/chessboard/chessboard.dae</uri>
 						<scale>0.0625 0.0625 0.0625</scale>
 					</mesh>
 				</geometry>
@@ -30,7 +30,7 @@
 				<cast_shadows>false</cast_shadows>
 					<geometry>
 						<mesh>
-							<uri>/home/vagrant/rf_ws/src/chess_baxter/models/chessboard/chessboard.dae</uri>
+							<uri>/home/vagrant/rf_ws/src/chess_robot/models/chessboard/chessboard.dae</uri>
 							<scale>0.0625 0.0625 0.0625</scale>
 						</mesh>
 					</geometry>

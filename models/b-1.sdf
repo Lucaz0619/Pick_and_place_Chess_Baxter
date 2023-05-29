@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sdf version="1.6">
-    <model name="bishop">
+    <model name="bishopb">
         <link name="piece">
             <inertial>
                 <mass>0.001</mass>
@@ -43,7 +43,7 @@
                 <material>
                     <script>
                         <uri>file://media/materials/scripts/gazebo.material</uri>
-                        <name>Gazebo/Green</name>
+                        <name>Gazebo/GreenGlow</name>
                     </script>
                 </material>
             </visual>
