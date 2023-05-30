@@ -1,7 +1,7 @@
 # Pick_and_place_Chess_Baxter
 
 ### Description
-This is a coursework deliverd by University of Glasgow, Robotics Foundation. This repository contains a set of Python scripts to simulate a chess game using a robot in ROS (Robot Operating System) with the Gazebo simulation environment. The chessboard, pieces, and a table are spawned in Gazebo, and the robot can pick and place the chess pieces on the board.
+This is a coursework deliverd in course Robotics Foundation at University of Glasgow. This repository contains a set of Python scripts to simulate a chess game using a robot in ROS (Robot Operating System) with the Gazebo simulation environment. The chessboard, pieces, and a table are spawned in Gazebo, and the robot can pick and place the chess pieces on the board.
 
 ### Prerequisites
 - ROS (Robot Operating System)
